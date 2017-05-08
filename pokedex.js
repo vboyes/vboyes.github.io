@@ -6,7 +6,7 @@ $(document).ready(function() {
 function loadPoke() {
   var pokeID = $('#pokeNum').val();
   $.ajax({
-    url: 'http://pokeapi.co/api/v2/pokemon/' + pokeID + '/',
+    url: 'https://pokeapi.co/api/v2/pokemon/' + pokeID + '/',
     success: apiSuccess,
     error: apiFail
   });
