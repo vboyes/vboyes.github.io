@@ -1,3 +1,7 @@
+---
+---
+
+@import "{{ site.theme }}";
 .header {
   background-color: #8ADED3;
   border-style: solid;
